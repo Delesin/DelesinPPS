@@ -1,25 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Azure Static Web Apps Blazor Sample</title>
+    <title>Delesin PPS</title>
     <base href="/" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/app.css" rel="stylesheet" />
-    <link href="Client.styles.css" rel="stylesheet" />
 </head>
-
 <body>
-    <div id="app">Loading...</div>
+    <div id="app" style="position:absolute;width:100%;height:100%;"></div>
+    <div id="opensilver-root" style="position: relative; width: 100%; height: 100%; overflow-x: hidden; overflow-y: hidden"></div>
+    <link rel="stylesheet" type="text/css" href="data-grid-styles.css"/>
+    <link rel="stylesheet" type="text/css" href="jquery.dataTables.css"/>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
-    <script src="_framework/blazor.webassembly.js"></script>
+    <!-- loading indicator -->
+    <!-- modify these files to change the loading animation -->
+    <link rel="stylesheet" type="text/css" href="loading-indicator.css" />
+    <!--<link rel="stylesheet" type="text/css" href="libs/print.min.css" />
+    <link rel="stylesheet" type="text/css" href="libs/elmn.print.css" />-->
+    <script type="text/javascript" src="loading-indicator.js"></script>
+    <script type="text/javascript" src="libs/velocity.js"></script>
+
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script type="text/javascript" src="libs/opensilver.js"></script>
+    <script type="text/javascript" src="libs/printhelper.js"></script>
+    <!--<script type="text/javascript" src="libs/print.min.js"></script>
+    <script type="text/javascript" src="libs/elmn.print.js"></script>-->
+    <script type="text/javascript" src="libs/html2canvas.min.js"></script>
+    <script type="text/javascript" src="libs/FileSaver.min.js"></script>
+    <script type="text/javascript" src="BlazorLoader.js"></script>
+    <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="dataTables.select.min.js"></script>
+    <script type="text/javascript" src="dataTables.colReorder.min.js"></script>
+    <script type="text/javascript" src="interactive-securities-selection.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,54 @@
+﻿
+.data-grid-cell-style{
+    padding: 1px 3px 0 3px !important;
+    user-select: none;
+    font-size: 10px;
+}
+
+table.dataTable.stripe tbody tr:first-child td.no-outline{
+    border-top-width: 0px !important;
+}
+
+table.dataTable.stripe tbody tr:last-child td.no-outline {
+    border-bottom-width: 0px !important;
+}
+
+table.dataTable.stripe tbody tr td:first-child.no-outline {
+    border-left-width: 0px !important;
+}
+
+table.dataTable.stripe tbody tr td:last-child.no-outline {
+    border-right-width: 0px !important;
+}
+
+table.dataTable.stripe thead th.no-outline{
+    border-bottom-width: 0px !important;
+}
+
+.data-grid-header-style{
+    font-size: 9px;
+}
+
+table.dataTable.stripe thead th:hover{
+    background: linear-gradient(#FFFFFFFF, #F2FFFFFF) !important;
+}
+
+.flex-container{
+    display: inline-flex;
+    align-items: center;
+}
+
+.flex-container input[type=checkbox]{
+    accent-color: white;
+    width: 13px;
+    height: 13px;
+}
+
+table.dataTable.stripe td.measures-grid-cell-style{
+    font-size: 11px;
+    padding: 3px !important;
+}
+
+table.dataTable.stripe th.measures-grid-cell-style {
+    font-size: 10px;
+}
